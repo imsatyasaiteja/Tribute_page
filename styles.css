@@ -1,0 +1,140 @@
+*
+{
+    font-family: 'Poppins';
+    caret-color: transparent;
+}
+
+#body {
+    background: white;
+}
+
+#main {
+    background: rgb(238, 238, 238);
+    margin: 2rem 0.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#title {
+    padding: 2.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+#img-div {
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 0 2rem;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.500);
+    border-radius: 1rem;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    max-width: 700px; 
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+#img-caption {
+    display: block;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.list {
+    margin: auto;
+    max-width: 700px;
+    padding: 2rem;
+}
+
+li, blockquote, #img-caption, .credits
+{
+    font-size: 0.85rem;
+    line-height: 2.8rem;
+}
+
+blockquote {
+    display: block;
+    line-height: 2.1rem;
+    max-width: 700px;
+    padding: 1.5rem;
+    margin: 0 auto 2rem auto;
+    font-style: italic;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+h5 {
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+    padding: 0 0 4rem 0;
+    font-weight: normal;
+}
+
+.credits {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.759);
+    padding: 1.3rem;
+    border-radius: 15px;   
+}
+
+#logo-box {
+    display: flex;
+    margin: auto;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0.5rem 0.5rem 1.5rem 0.5rem;
+    width: 3.5rem;
+    height: auto;
+    padding: 1.2rem;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px)
+{
+    #title
+    {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    li, blockquote, h4
+    {
+        font-size: 0.8rem;
+        line-height: 2rem;
+    }
+
+    #img-caption
+    {
+        font-size: 0.8rem;
+        line-height: 1.6rem;
+    }
+
+    .logo
+    {
+        width: 2.7rem;
+    }
+    
+}
