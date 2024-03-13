@@ -1,9 +1,9 @@
-## Tribute Page
+# Tribute Page
 
-This is a tribute webpage to Dr. APJ Abdul Kalam, created while learning responsive web design from FCC
+- This is a tribute webpage to Dr. APJ Abdul Kalam, created while learning responsive web design from FCC
 
-### Preview
+## Preview
 [<img src="https://user-images.githubusercontent.com/85508314/219867982-87ca1b78-bb88-46bf-bced-9ac307d1e673.png" width="500" alt="Tribute Page">](https://imsatyasaiteja.github.io/Tribute_page/)
 
-### Reference
+## Reference
 Free Code Camp
